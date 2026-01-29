@@ -1,0 +1,32 @@
+services:
+  admin:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    container_name: rhne_admin_dev
+    restart: unless-stopped
+    ports:
+      - '5173:5173'
+    volumes:
+      - ./src:/app/src:cached
+      - ./public:/app/public:cached
+      - ./index.html:/app/index.html:cached
+      - ./vite.config.ts:/app/vite.config.ts:cached
+      - ./tsconfig.json:/app/tsconfig.json:cached
+      - node_modules:/app/node_modules
+    environment:
+      - VITE_API_URL=http://localhost:5000/api/v1
+      - VITE_APP_NAME=RHNe Admin
+      - VITE_DEFAULT_LANGUAGE=fr
+      - VITE_ENABLE_DEVTOOLS=true
+    networks:
+      - rhne_network
+
+networks:
+  rhne_network:
+    external: true
+    name: rhne-node-api_rhne-network
+
+volumes:
+  node_modules:
+    name: rhne_admin_node_modules_dev
