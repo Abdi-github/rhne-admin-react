@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+dist/
+dist-node/
+
+# IDE
+.vscode/
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env.local
+.env.production
+
+# Build
+*.tsbuildinfo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+
+# Misc
+*.log
+npm-debug.log*

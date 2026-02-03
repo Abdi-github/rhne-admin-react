@@ -1,0 +1,30 @@
+{
+  "title": "Paramètres",
+  "profile": {
+    "title": "Informations du profil",
+    "first_name": "Prénom",
+    "last_name": "Nom",
+    "email": "Email",
+    "phone": "Téléphone",
+    "preferred_language": "Langue préférée",
+    "update_success": "Profil mis à jour avec succès",
+    "update_error": "Erreur lors de la mise à jour du profil"
+  },
+  "password": {
+    "title": "Changer le mot de passe",
+    "current_password": "Mot de passe actuel",
+    "new_password": "Nouveau mot de passe",
+    "confirm_password": "Confirmer le mot de passe",
+    "change_success": "Mot de passe changé avec succès",
+    "change_error": "Erreur lors du changement de mot de passe",
+    "mismatch": "Les mots de passe ne correspondent pas",
+    "requirements": "Min. 8 caractères, majuscule, minuscule, chiffre, caractère spécial"
+  },
+  "language": {
+    "title": "Langue de l'interface",
+    "fr": "Français",
+    "en": "English",
+    "de": "Deutsch",
+    "it": "Italiano"
+  }
+}

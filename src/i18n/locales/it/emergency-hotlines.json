@@ -1,0 +1,30 @@
+{
+  "title": "Hotline di emergenza",
+  "add_hotline": "Aggiungi hotline",
+  "create_hotline": "Crea hotline",
+  "edit_hotline": "Modifica hotline",
+  "hotline_info": "Informazioni hotline",
+  "hotline_details": "Dettagli hotline",
+  "hotline_title": "Titolo",
+  "hotline_type": "Tipo",
+  "subtitle": "Sottotitolo",
+  "phone_number": "Numero di telefono",
+  "description": "Descrizione",
+  "icon": "Icona",
+  "color": "Colore",
+  "link_url": "URL del link",
+  "display_order": "Ordine di visualizzazione",
+  "search_placeholder": "Cerca hotline...",
+  "filter_active": "Solo attive",
+  "no_hotlines": "Nessuna hotline di emergenza",
+  "confirm_delete": "Sei sicuro di voler eliminare questa hotline di emergenza?",
+  "created_success": "Hotline creata con successo",
+  "updated_success": "Hotline aggiornata con successo",
+  "deleted_success": "Hotline eliminata con successo",
+  "types": {
+    "vital": "Emergenze vitali",
+    "non_vital": "Emergenze non vitali",
+    "psychiatric": "Psichiatrico",
+    "appointment": "Appuntamento"
+  }
+}

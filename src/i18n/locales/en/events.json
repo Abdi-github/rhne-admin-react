@@ -1,0 +1,23 @@
+{
+  "title": "Events",
+  "add_event": "Add event",
+  "edit_event": "Edit event",
+  "create_event": "Create event",
+  "event_info": "Event information",
+  "event_details": "Event details",
+  "event_title": "Event title",
+  "date": "Date",
+  "time": "Time",
+  "location": "Location",
+  "category": "Category",
+  "description": "Description",
+  "url": "URL",
+  "detail_url": "Detail URL",
+  "search_placeholder": "Search events...",
+  "created_success": "Event created successfully",
+  "updated_success": "Event updated successfully",
+  "deleted_success": "Event deleted successfully",
+  "confirm_delete": "Are you sure you want to delete this event?",
+  "filter_active": "Active only",
+  "no_events": "No events found"
+}

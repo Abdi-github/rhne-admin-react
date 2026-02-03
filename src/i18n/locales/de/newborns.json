@@ -1,0 +1,17 @@
+{
+  "title": "Geburten",
+  "add_newborn": "Geburt hinzufügen",
+  "edit_newborn": "Geburt bearbeiten",
+  "create_newborn": "Geburt registrieren",
+  "newborn_info": "Geburtsinformationen",
+  "name": "Vorname des Babys",
+  "date": "Geburtsdatum",
+  "image_url": "Foto",
+  "search_placeholder": "Geburten suchen...",
+  "created_success": "Geburt erfolgreich registriert",
+  "updated_success": "Geburt erfolgreich aktualisiert",
+  "deleted_success": "Geburt erfolgreich gelöscht",
+  "confirm_delete": "Sind Sie sicher, dass Sie diese Geburt löschen möchten?",
+  "no_newborns": "Keine Geburten gefunden",
+  "filter_month": "Nach Monat filtern"
+}

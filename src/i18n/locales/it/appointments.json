@@ -1,0 +1,33 @@
+{
+  "title": "Appuntamenti online",
+  "add_appointment": "Aggiungi appuntamento",
+  "create_appointment": "Crea appuntamento",
+  "edit_appointment": "Modifica appuntamento",
+  "appointment_info": "Informazioni appuntamento",
+  "appointment_details": "Dettagli appuntamento",
+  "appointment_title": "Titolo",
+  "appointment_type": "Tipo",
+  "description": "Descrizione",
+  "age_restriction": "Restrizione d'età",
+  "schedule": "Orario",
+  "locations": "Località",
+  "booking_url": "URL di prenotazione",
+  "phone_number": "Numero di telefono",
+  "info_text": "Testo informativo",
+  "conditions": "Condizioni",
+  "condition": "Condizione",
+  "no_conditions": "Nessuna condizione aggiunta",
+  "display_order": "Ordine di visualizzazione",
+  "search_placeholder": "Cerca appuntamenti...",
+  "filter_active": "Solo attivi",
+  "no_appointments": "Nessun appuntamento online",
+  "confirm_delete": "Sei sicuro di voler eliminare questo appuntamento?",
+  "created_success": "Appuntamento creato con successo",
+  "updated_success": "Appuntamento aggiornato con successo",
+  "deleted_success": "Appuntamento eliminato con successo",
+  "types": {
+    "adult": "Adulto",
+    "child": "Bambino e adolescente",
+    "doctor": "Medico di famiglia"
+  }
+}

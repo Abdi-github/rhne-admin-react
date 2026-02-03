@@ -1,0 +1,23 @@
+{
+  "title": "Événements",
+  "add_event": "Ajouter un événement",
+  "edit_event": "Modifier l'événement",
+  "create_event": "Créer un événement",
+  "event_info": "Informations de l'événement",
+  "event_details": "Détails de l'événement",
+  "event_title": "Titre de l'événement",
+  "date": "Date",
+  "time": "Horaire",
+  "location": "Lieu",
+  "category": "Catégorie",
+  "description": "Description",
+  "url": "URL",
+  "detail_url": "URL de détail",
+  "search_placeholder": "Rechercher des événements...",
+  "created_success": "Événement créé avec succès",
+  "updated_success": "Événement mis à jour avec succès",
+  "deleted_success": "Événement supprimé avec succès",
+  "confirm_delete": "Êtes-vous sûr de vouloir supprimer cet événement ?",
+  "filter_active": "Actifs uniquement",
+  "no_events": "Aucun événement trouvé"
+}

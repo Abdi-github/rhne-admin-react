@@ -1,0 +1,23 @@
+{
+  "title": "Veranstaltungen",
+  "add_event": "Veranstaltung hinzufügen",
+  "edit_event": "Veranstaltung bearbeiten",
+  "create_event": "Veranstaltung erstellen",
+  "event_info": "Veranstaltungsinformationen",
+  "event_details": "Veranstaltungsdetails",
+  "event_title": "Veranstaltungstitel",
+  "date": "Datum",
+  "time": "Zeit",
+  "location": "Ort",
+  "category": "Kategorie",
+  "description": "Beschreibung",
+  "url": "URL",
+  "detail_url": "Detail-URL",
+  "search_placeholder": "Veranstaltungen suchen...",
+  "created_success": "Veranstaltung erfolgreich erstellt",
+  "updated_success": "Veranstaltung erfolgreich aktualisiert",
+  "deleted_success": "Veranstaltung erfolgreich gelöscht",
+  "confirm_delete": "Sind Sie sicher, dass Sie diese Veranstaltung löschen möchten?",
+  "filter_active": "Nur aktive",
+  "no_events": "Keine Veranstaltungen gefunden"
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Nascite",
+  "add_newborn": "Aggiungi nascita",
+  "edit_newborn": "Modifica nascita",
+  "create_newborn": "Registra una nascita",
+  "newborn_info": "Informazioni sulla nascita",
+  "name": "Nome del bambino",
+  "date": "Data di nascita",
+  "image_url": "Foto",
+  "search_placeholder": "Cerca nascite...",
+  "created_success": "Nascita registrata con successo",
+  "updated_success": "Nascita aggiornata con successo",
+  "deleted_success": "Nascita eliminata con successo",
+  "confirm_delete": "Sei sicuro di voler eliminare questa nascita?",
+  "no_newborns": "Nessuna nascita trovata",
+  "filter_month": "Filtra per mese"
+}

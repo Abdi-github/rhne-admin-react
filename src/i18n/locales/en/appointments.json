@@ -1,0 +1,33 @@
+{
+  "title": "Online Appointments",
+  "add_appointment": "Add Appointment",
+  "create_appointment": "Create Appointment",
+  "edit_appointment": "Edit Appointment",
+  "appointment_info": "Appointment Information",
+  "appointment_details": "Appointment Details",
+  "appointment_title": "Title",
+  "appointment_type": "Type",
+  "description": "Description",
+  "age_restriction": "Age Restriction",
+  "schedule": "Schedule",
+  "locations": "Locations",
+  "booking_url": "Booking URL",
+  "phone_number": "Phone Number",
+  "info_text": "Information Text",
+  "conditions": "Conditions",
+  "condition": "Condition",
+  "no_conditions": "No conditions added",
+  "display_order": "Display Order",
+  "search_placeholder": "Search appointments...",
+  "filter_active": "Active only",
+  "no_appointments": "No online appointments",
+  "confirm_delete": "Are you sure you want to delete this appointment?",
+  "created_success": "Appointment created successfully",
+  "updated_success": "Appointment updated successfully",
+  "deleted_success": "Appointment deleted successfully",
+  "types": {
+    "adult": "Adult",
+    "child": "Child and Adolescent",
+    "doctor": "Family Doctor"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Medici",
+  "add_doctor": "Aggiungi medico",
+  "edit_doctor": "Modifica medico",
+  "create_doctor": "Crea medico",
+  "doctor_info": "Informazioni sul medico",
+  "name": "Nome completo",
+  "doctor_title": "Titolo",
+  "service": "Servizio medico",
+  "service_name": "Nome del servizio",
+  "image": "Foto",
+  "search_placeholder": "Cerca medici...",
+  "created_success": "Medico creato con successo",
+  "updated_success": "Medico aggiornato con successo",
+  "deleted_success": "Medico eliminato con successo",
+  "confirm_delete": "Sei sicuro di voler eliminare questo medico?",
+  "no_doctors": "Nessun medico trovato",
+  "filter_active": "Solo attivi",
+  "select_service": "Seleziona un servizio",
+  "select_title": "Seleziona un titolo",
+  "no_title": "Nessun titolo",
+  "title_options": {
+    "Dr": "Dr",
+    "Dre": "Dre",
+    "Pr": "Pr",
+    "Pre": "Pre",
+    "Prof": "Prof"
+  }
+}

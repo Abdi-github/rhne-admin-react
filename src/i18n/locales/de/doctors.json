@@ -1,0 +1,29 @@
+{
+  "title": "Ärzte",
+  "add_doctor": "Arzt hinzufügen",
+  "edit_doctor": "Arzt bearbeiten",
+  "create_doctor": "Arzt erstellen",
+  "doctor_info": "Arztinformationen",
+  "name": "Vollständiger Name",
+  "doctor_title": "Titel",
+  "service": "Medizinische Abteilung",
+  "service_name": "Abteilungsname",
+  "image": "Foto",
+  "search_placeholder": "Ärzte suchen...",
+  "created_success": "Arzt erfolgreich erstellt",
+  "updated_success": "Arzt erfolgreich aktualisiert",
+  "deleted_success": "Arzt erfolgreich gelöscht",
+  "confirm_delete": "Möchten Sie diesen Arzt wirklich löschen?",
+  "no_doctors": "Keine Ärzte gefunden",
+  "filter_active": "Nur aktive",
+  "select_service": "Abteilung auswählen",
+  "select_title": "Titel auswählen",
+  "no_title": "Kein Titel",
+  "title_options": {
+    "Dr": "Dr",
+    "Dre": "Dre",
+    "Pr": "Pr",
+    "Pre": "Pre",
+    "Prof": "Prof"
+  }
+}

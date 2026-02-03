@@ -1,0 +1,52 @@
+{
+  "title": "Services médicaux",
+  "add_service": "Ajouter un service",
+  "edit_service": "Modifier le service",
+  "create_service": "Créer un service",
+  "service_info": "Informations du service",
+  "service_detail": "Détail du service",
+  "name": "Nom du service",
+  "category": "Catégorie",
+  "description": "Description",
+  "prestations": "Prestations",
+  "add_prestation": "Ajouter une prestation",
+  "remove_prestation": "Supprimer cette prestation",
+  "image": "Image",
+  "search_placeholder": "Rechercher des services...",
+  "created_success": "Service créé avec succès",
+  "updated_success": "Service mis à jour avec succès",
+  "deleted_success": "Service supprimé avec succès",
+  "confirm_delete": "Êtes-vous sûr de vouloir supprimer ce service ?",
+  "no_services": "Aucun service médical trouvé",
+  "filter_active": "Actifs uniquement",
+  "tabs": {
+    "contacts": "Contacts",
+    "links": "Liens"
+  },
+  "contacts": {
+    "title": "Contacts du service",
+    "add": "Ajouter un contact",
+    "edit": "Modifier le contact",
+    "site_name": "Site / Lieu",
+    "email": "E-mail",
+    "phone": "Téléphone",
+    "hours": "Horaires",
+    "created_success": "Contact créé avec succès",
+    "updated_success": "Contact mis à jour avec succès",
+    "deleted_success": "Contact supprimé avec succès",
+    "confirm_delete": "Êtes-vous sûr de vouloir supprimer ce contact ?",
+    "no_contacts": "Aucun contact trouvé"
+  },
+  "links": {
+    "title": "Liens du service",
+    "add": "Ajouter un lien",
+    "edit": "Modifier le lien",
+    "link_title": "Titre du lien",
+    "url": "URL",
+    "created_success": "Lien créé avec succès",
+    "updated_success": "Lien mis à jour avec succès",
+    "deleted_success": "Lien supprimé avec succès",
+    "confirm_delete": "Êtes-vous sûr de vouloir supprimer ce lien ?",
+    "no_links": "Aucun lien trouvé"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Emergency Hotlines",
+  "add_hotline": "Add Hotline",
+  "create_hotline": "Create Hotline",
+  "edit_hotline": "Edit Hotline",
+  "hotline_info": "Hotline Information",
+  "hotline_details": "Hotline Details",
+  "hotline_title": "Title",
+  "hotline_type": "Type",
+  "subtitle": "Subtitle",
+  "phone_number": "Phone Number",
+  "description": "Description",
+  "icon": "Icon",
+  "color": "Color",
+  "link_url": "Link URL",
+  "display_order": "Display Order",
+  "search_placeholder": "Search hotlines...",
+  "filter_active": "Active only",
+  "no_hotlines": "No emergency hotlines",
+  "confirm_delete": "Are you sure you want to delete this emergency hotline?",
+  "created_success": "Hotline created successfully",
+  "updated_success": "Hotline updated successfully",
+  "deleted_success": "Hotline deleted successfully",
+  "types": {
+    "vital": "Vital Emergencies",
+    "non_vital": "Non-vital Emergencies",
+    "psychiatric": "Psychiatric",
+    "appointment": "Appointment"
+  }
+}

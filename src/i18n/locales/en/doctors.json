@@ -1,0 +1,29 @@
+{
+  "title": "Doctors",
+  "add_doctor": "Add Doctor",
+  "edit_doctor": "Edit Doctor",
+  "create_doctor": "Create Doctor",
+  "doctor_info": "Doctor Information",
+  "name": "Full Name",
+  "doctor_title": "Title",
+  "service": "Medical Service",
+  "service_name": "Service Name",
+  "image": "Photo",
+  "search_placeholder": "Search doctors...",
+  "created_success": "Doctor created successfully",
+  "updated_success": "Doctor updated successfully",
+  "deleted_success": "Doctor deleted successfully",
+  "confirm_delete": "Are you sure you want to delete this doctor?",
+  "no_doctors": "No doctors found",
+  "filter_active": "Active only",
+  "select_service": "Select a service",
+  "select_title": "Select a title",
+  "no_title": "No title",
+  "title_options": {
+    "Dr": "Dr",
+    "Dre": "Dre",
+    "Pr": "Pr",
+    "Pre": "Pre",
+    "Prof": "Prof"
+  }
+}

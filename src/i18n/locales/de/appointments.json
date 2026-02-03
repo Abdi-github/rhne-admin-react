@@ -1,0 +1,33 @@
+{
+  "title": "Online-Termine",
+  "add_appointment": "Termin hinzufügen",
+  "create_appointment": "Termin erstellen",
+  "edit_appointment": "Termin bearbeiten",
+  "appointment_info": "Termininformationen",
+  "appointment_details": "Termindetails",
+  "appointment_title": "Titel",
+  "appointment_type": "Typ",
+  "description": "Beschreibung",
+  "age_restriction": "Altersbeschränkung",
+  "schedule": "Zeitplan",
+  "locations": "Standorte",
+  "booking_url": "Buchungs-URL",
+  "phone_number": "Telefonnummer",
+  "info_text": "Informationstext",
+  "conditions": "Bedingungen",
+  "condition": "Bedingung",
+  "no_conditions": "Keine Bedingungen hinzugefügt",
+  "display_order": "Anzeigeordnung",
+  "search_placeholder": "Termine suchen...",
+  "filter_active": "Nur aktive",
+  "no_appointments": "Keine Online-Termine",
+  "confirm_delete": "Möchten Sie diesen Termin wirklich löschen?",
+  "created_success": "Termin erfolgreich erstellt",
+  "updated_success": "Termin erfolgreich aktualisiert",
+  "deleted_success": "Termin erfolgreich gelöscht",
+  "types": {
+    "adult": "Erwachsene",
+    "child": "Kind und Jugendlicher",
+    "doctor": "Hausarzt"
+  }
+}

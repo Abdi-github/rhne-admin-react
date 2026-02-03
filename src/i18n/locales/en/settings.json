@@ -1,0 +1,30 @@
+{
+  "title": "Settings",
+  "profile": {
+    "title": "Profile Information",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "preferred_language": "Preferred Language",
+    "update_success": "Profile updated successfully",
+    "update_error": "Error updating profile"
+  },
+  "password": {
+    "title": "Change Password",
+    "current_password": "Current Password",
+    "new_password": "New Password",
+    "confirm_password": "Confirm Password",
+    "change_success": "Password changed successfully",
+    "change_error": "Error changing password",
+    "mismatch": "Passwords do not match",
+    "requirements": "Min. 8 chars, uppercase, lowercase, digit, special character"
+  },
+  "language": {
+    "title": "Interface Language",
+    "fr": "Français",
+    "en": "English",
+    "de": "Deutsch",
+    "it": "Italiano"
+  }
+}

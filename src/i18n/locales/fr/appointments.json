@@ -1,0 +1,33 @@
+{
+  "title": "Rendez-vous en ligne",
+  "add_appointment": "Ajouter un rendez-vous",
+  "create_appointment": "Créer un rendez-vous",
+  "edit_appointment": "Modifier le rendez-vous",
+  "appointment_info": "Informations du rendez-vous",
+  "appointment_details": "Détails du rendez-vous",
+  "appointment_title": "Titre",
+  "appointment_type": "Type",
+  "description": "Description",
+  "age_restriction": "Restriction d'âge",
+  "schedule": "Horaire",
+  "locations": "Lieux",
+  "booking_url": "URL de réservation",
+  "phone_number": "Numéro de téléphone",
+  "info_text": "Texte d'information",
+  "conditions": "Conditions",
+  "condition": "Condition",
+  "no_conditions": "Aucune condition ajoutée",
+  "display_order": "Ordre d'affichage",
+  "search_placeholder": "Rechercher des rendez-vous...",
+  "filter_active": "Actifs uniquement",
+  "no_appointments": "Aucun rendez-vous en ligne",
+  "confirm_delete": "Êtes-vous sûr de vouloir supprimer ce rendez-vous ?",
+  "created_success": "Rendez-vous créé avec succès",
+  "updated_success": "Rendez-vous mis à jour avec succès",
+  "deleted_success": "Rendez-vous supprimé avec succès",
+  "types": {
+    "adult": "Adulte",
+    "child": "Enfant et adolescent",
+    "doctor": "Médecin traitant"
+  }
+}

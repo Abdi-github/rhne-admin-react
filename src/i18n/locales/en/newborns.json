@@ -1,0 +1,17 @@
+{
+  "title": "Newborns",
+  "add_newborn": "Add newborn",
+  "edit_newborn": "Edit newborn",
+  "create_newborn": "Register a birth",
+  "newborn_info": "Birth information",
+  "name": "Baby's first name",
+  "date": "Date of birth",
+  "image_url": "Photo",
+  "search_placeholder": "Search newborns...",
+  "created_success": "Birth registered successfully",
+  "updated_success": "Birth updated successfully",
+  "deleted_success": "Birth deleted successfully",
+  "confirm_delete": "Are you sure you want to delete this birth record?",
+  "no_newborns": "No newborns found",
+  "filter_month": "Filter by month"
+}

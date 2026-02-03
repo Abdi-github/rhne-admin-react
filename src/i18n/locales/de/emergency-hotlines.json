@@ -1,0 +1,30 @@
+{
+  "title": "Notfall-Hotlines",
+  "add_hotline": "Hotline hinzufügen",
+  "create_hotline": "Hotline erstellen",
+  "edit_hotline": "Hotline bearbeiten",
+  "hotline_info": "Hotline-Informationen",
+  "hotline_details": "Hotline-Details",
+  "hotline_title": "Titel",
+  "hotline_type": "Typ",
+  "subtitle": "Untertitel",
+  "phone_number": "Telefonnummer",
+  "description": "Beschreibung",
+  "icon": "Symbol",
+  "color": "Farbe",
+  "link_url": "Link-URL",
+  "display_order": "Anzeigeordnung",
+  "search_placeholder": "Hotlines suchen...",
+  "filter_active": "Nur aktive",
+  "no_hotlines": "Keine Notfall-Hotlines",
+  "confirm_delete": "Möchten Sie diese Notfall-Hotline wirklich löschen?",
+  "created_success": "Hotline erfolgreich erstellt",
+  "updated_success": "Hotline erfolgreich aktualisiert",
+  "deleted_success": "Hotline erfolgreich gelöscht",
+  "types": {
+    "vital": "Lebensbedrohliche Notfälle",
+    "non_vital": "Nicht lebensbedrohliche Notfälle",
+    "psychiatric": "Psychiatrisch",
+    "appointment": "Termin"
+  }
+}

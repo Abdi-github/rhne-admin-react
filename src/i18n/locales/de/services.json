@@ -1,0 +1,52 @@
+{
+  "title": "Medizinische Dienste",
+  "add_service": "Dienst hinzufügen",
+  "edit_service": "Dienst bearbeiten",
+  "create_service": "Dienst erstellen",
+  "service_info": "Dienstinformationen",
+  "service_detail": "Dienstdetail",
+  "name": "Dienstname",
+  "category": "Kategorie",
+  "description": "Beschreibung",
+  "prestations": "Leistungen",
+  "add_prestation": "Leistung hinzufügen",
+  "remove_prestation": "Diese Leistung entfernen",
+  "image": "Bild",
+  "search_placeholder": "Dienste suchen...",
+  "created_success": "Dienst erfolgreich erstellt",
+  "updated_success": "Dienst erfolgreich aktualisiert",
+  "deleted_success": "Dienst erfolgreich gelöscht",
+  "confirm_delete": "Sind Sie sicher, dass Sie diesen Dienst löschen möchten?",
+  "no_services": "Keine medizinischen Dienste gefunden",
+  "filter_active": "Nur aktive",
+  "tabs": {
+    "contacts": "Kontakte",
+    "links": "Links"
+  },
+  "contacts": {
+    "title": "Dienstkontakte",
+    "add": "Kontakt hinzufügen",
+    "edit": "Kontakt bearbeiten",
+    "site_name": "Standort",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "hours": "Öffnungszeiten",
+    "created_success": "Kontakt erfolgreich erstellt",
+    "updated_success": "Kontakt erfolgreich aktualisiert",
+    "deleted_success": "Kontakt erfolgreich gelöscht",
+    "confirm_delete": "Sind Sie sicher, dass Sie diesen Kontakt löschen möchten?",
+    "no_contacts": "Keine Kontakte gefunden"
+  },
+  "links": {
+    "title": "Dienstlinks",
+    "add": "Link hinzufügen",
+    "edit": "Link bearbeiten",
+    "link_title": "Linktitel",
+    "url": "URL",
+    "created_success": "Link erfolgreich erstellt",
+    "updated_success": "Link erfolgreich aktualisiert",
+    "deleted_success": "Link erfolgreich gelöscht",
+    "confirm_delete": "Sind Sie sicher, dass Sie diesen Link löschen möchten?",
+    "no_links": "Keine Links gefunden"
+  }
+}
