@@ -1,0 +1,32 @@
+services:
+  admin:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: rhne_admin_prod
+    restart: unless-stopped
+    ports:
+      - "5173:80"
+    environment:
+      - NODE_ENV=production
+    networks:
+      - rhne-network
+      - traefik
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.rhne-admin.rule=Host(`rhne-admin.swiftapp.ch`)"
+      - "traefik.http.routers.rhne-admin.entrypoints=websecure"
+      - "traefik.http.routers.rhne-admin.tls.certresolver=letsencrypt"
+      - "traefik.http.services.rhne-admin.loadbalancer.server.port=80"
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost/"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 5s
+
+networks:
+  rhne-network:
+    external: true
+  traefik:
+    external: true

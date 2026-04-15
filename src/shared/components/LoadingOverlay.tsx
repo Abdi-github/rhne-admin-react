@@ -11,7 +11,7 @@ export function LoadingOverlay({ open, message }: LoadingOverlayProps) {
       open={open}
       role="alert"
       aria-live="polite"
-      sx={{{
+      sx={{
         color: '#fff',
         zIndex: (theme) => theme.zIndex.drawer + 1,
         flexDirection: 'column',
