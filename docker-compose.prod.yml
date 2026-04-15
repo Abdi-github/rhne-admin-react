@@ -14,10 +14,14 @@ services:
       - traefik
     labels:
       - "traefik.enable=true"
+      - "traefik.docker.allownonrunning=true"
       - "traefik.http.routers.rhne-admin.rule=Host(`rhne-admin.swiftapp.ch`)"
       - "traefik.http.routers.rhne-admin.entrypoints=websecure"
       - "traefik.http.routers.rhne-admin.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.rhne-admin.middlewares=sablier-rhne@file"
       - "traefik.http.services.rhne-admin.loadbalancer.server.port=80"
+      - "sablier.enable=true"
+      - "sablier.group=rhne"
     healthcheck:
       test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost/"]
       interval: 30s
