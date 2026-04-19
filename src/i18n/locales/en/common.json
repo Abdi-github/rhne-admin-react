@@ -80,8 +80,10 @@
     "rbac": "Roles & Permissions",
     "settings": "Settings",
     "emergency_hotlines": "Emergency Hotlines",
-    "appointments": "Appointments"
+    "appointments": "Appointments",
+    "appointment_bookings": "Bookings"
   },
+  "all": "All",
   "roles": {
     "super_admin": "Super Admin",
     "admin": "Administrator",

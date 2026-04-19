@@ -10,6 +10,10 @@ import {
   InputAdornment,
   IconButton,
   CircularProgress,
+  Divider,
+  Chip,
+  Typography,
+  Box,
 } from '@mui/material';
 import { Visibility, VisibilityOff } from '@mui/icons-material';
 import { useTranslation } from 'react-i18next';
@@ -23,6 +27,14 @@ function createLoginSchema(t: TFunction) {
 }
 
 type LoginFormData = z.infer<typeof loginSchema>;
+
+const DEMO_ACCOUNTS = [
+  { label: 'Super Admin', email: 'superadmin@rhne-clone.ch', password: 'SuperAdmin123!' },
+  { label: 'Admin', email: 'admin@rhne-clone.ch', password: 'Admin123!' },
+  { label: 'Content Editor', email: 'editor@rhne-clone.ch', password: 'Editor123!' },
+  { label: 'HR Manager', email: 'hr@rhne-clone.ch', password: 'HrManager123!' },
+  { label: 'Site Manager', email: 'site.pourtales@rhne-clone.ch', password: 'Manager123!' },
+] as const;
 
 interface LoginFormProps {
   onSubmit: (data: LoginFormData) => void;
@@ -38,6 +50,7 @@ export function LoginForm({ onSubmit, isLoading, error }: LoginFormProps) {
   const {
     control,
     handleSubmit,
+    setValue,
     formState: { errors },
   } = useForm<LoginFormData>({
     resolver: zodResolver(loginSchema),
@@ -112,6 +125,25 @@ export function LoginForm({ onSubmit, isLoading, error }: LoginFormProps) {
             t('login_button')
           )}
         </Button>
+
+        <Divider>
+          <Typography variant="caption" color="text.secondary">Demo Accounts</Typography>
+        </Divider>
+        <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1, justifyContent: 'center' }}>
+          {DEMO_ACCOUNTS.map((account) => (
+            <Chip
+              key={account.email}
+              label={account.label}
+              variant="outlined"
+              size="small"
+              onClick={() => {
+                setValue('email', account.email, { shouldValidate: true });
+                setValue('password', account.password, { shouldValidate: true });
+              }}
+              clickable
+            />
+          ))}
+        </Box>
       </Stack>
     </form>
   );

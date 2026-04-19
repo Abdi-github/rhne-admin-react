@@ -17,6 +17,7 @@ import frUsers from './locales/fr/users.json';
 import frRbac from './locales/fr/rbac.json';
 import frEmergencyHotlines from './locales/fr/emergency-hotlines.json';
 import frAppointments from './locales/fr/appointments.json';
+import frBookings from './locales/fr/bookings.json';
 import enCommon from './locales/en/common.json';
 import enAuth from './locales/en/auth.json';
 import enDashboard from './locales/en/dashboard.json';
@@ -32,6 +33,7 @@ import enUsers from './locales/en/users.json';
 import enRbac from './locales/en/rbac.json';
 import enEmergencyHotlines from './locales/en/emergency-hotlines.json';
 import enAppointments from './locales/en/appointments.json';
+import enBookings from './locales/en/bookings.json';
 import deCommon from './locales/de/common.json';
 import deAuth from './locales/de/auth.json';
 import deDashboard from './locales/de/dashboard.json';
@@ -47,6 +49,7 @@ import deUsers from './locales/de/users.json';
 import deRbac from './locales/de/rbac.json';
 import deEmergencyHotlines from './locales/de/emergency-hotlines.json';
 import deAppointments from './locales/de/appointments.json';
+import deBookings from './locales/de/bookings.json';
 import itCommon from './locales/it/common.json';
 import itAuth from './locales/it/auth.json';
 import itDashboard from './locales/it/dashboard.json';
@@ -62,12 +65,13 @@ import itUsers from './locales/it/users.json';
 import itRbac from './locales/it/rbac.json';
 import itEmergencyHotlines from './locales/it/emergency-hotlines.json';
 import itAppointments from './locales/it/appointments.json';
+import itBookings from './locales/it/bookings.json';
 
 const resources = {
-  fr: { common: frCommon, auth: frAuth, dashboard: frDashboard, settings: frSettings, sites: frSites, services: frServices, doctors: frDoctors, events: frEvents, jobs: frJobs, newborns: frNewborns, 'patient-info': frPatientInfo, users: frUsers, rbac: frRbac, 'emergency-hotlines': frEmergencyHotlines, appointments: frAppointments },
-  en: { common: enCommon, auth: enAuth, dashboard: enDashboard, settings: enSettings, sites: enSites, services: enServices, doctors: enDoctors, events: enEvents, jobs: enJobs, newborns: enNewborns, 'patient-info': enPatientInfo, users: enUsers, rbac: enRbac, 'emergency-hotlines': enEmergencyHotlines, appointments: enAppointments },
-  de: { common: deCommon, auth: deAuth, dashboard: deDashboard, settings: deSettings, sites: deSites, services: deServices, doctors: deDoctors, events: deEvents, jobs: deJobs, newborns: deNewborns, 'patient-info': dePatientInfo, users: deUsers, rbac: deRbac, 'emergency-hotlines': deEmergencyHotlines, appointments: deAppointments },
-  it: { common: itCommon, auth: itAuth, dashboard: itDashboard, settings: itSettings, sites: itSites, services: itServices, doctors: itDoctors, events: itEvents, jobs: itJobs, newborns: itNewborns, 'patient-info': itPatientInfo, users: itUsers, rbac: itRbac, 'emergency-hotlines': itEmergencyHotlines, appointments: itAppointments },
+  fr: { common: frCommon, auth: frAuth, dashboard: frDashboard, settings: frSettings, sites: frSites, services: frServices, doctors: frDoctors, events: frEvents, jobs: frJobs, newborns: frNewborns, 'patient-info': frPatientInfo, users: frUsers, rbac: frRbac, 'emergency-hotlines': frEmergencyHotlines, appointments: frAppointments, bookings: frBookings },
+  en: { common: enCommon, auth: enAuth, dashboard: enDashboard, settings: enSettings, sites: enSites, services: enServices, doctors: enDoctors, events: enEvents, jobs: enJobs, newborns: enNewborns, 'patient-info': enPatientInfo, users: enUsers, rbac: enRbac, 'emergency-hotlines': enEmergencyHotlines, appointments: enAppointments, bookings: enBookings },
+  de: { common: deCommon, auth: deAuth, dashboard: deDashboard, settings: deSettings, sites: deSites, services: deServices, doctors: deDoctors, events: deEvents, jobs: deJobs, newborns: deNewborns, 'patient-info': dePatientInfo, users: deUsers, rbac: deRbac, 'emergency-hotlines': deEmergencyHotlines, appointments: deAppointments, bookings: deBookings },
+  it: { common: itCommon, auth: itAuth, dashboard: itDashboard, settings: itSettings, sites: itSites, services: itServices, doctors: itDoctors, events: itEvents, jobs: itJobs, newborns: itNewborns, 'patient-info': itPatientInfo, users: itUsers, rbac: itRbac, 'emergency-hotlines': itEmergencyHotlines, appointments: itAppointments, bookings: itBookings },
 };
 
 i18n
@@ -77,7 +81,7 @@ i18n
     resources,
     fallbackLng: 'fr',
     defaultNS: 'common',
-    ns: ['common', 'auth', 'dashboard', 'settings', 'sites', 'services', 'doctors', 'events', 'jobs', 'newborns', 'patient-info', 'users', 'rbac', 'emergency-hotlines', 'appointments'],
+    ns: ['common', 'auth', 'dashboard', 'settings', 'sites', 'services', 'doctors', 'events', 'jobs', 'newborns', 'patient-info', 'users', 'rbac', 'emergency-hotlines', 'appointments', 'bookings'],
     interpolation: { escapeValue: false },
     detection: {
       order: ['localStorage', 'navigator'],

@@ -13,6 +13,7 @@ import {
   Settings,
   LocalFireDepartment,
   CalendarMonth,
+  BookOnline,
 } from '@mui/icons-material';
 
 export interface NavItem {
@@ -93,6 +94,13 @@ export const SIDEBAR_NAV_ITEMS: NavItem[] = [
     path: '/appointments',
     icon: CalendarMonth,
     roles: ['admin', 'super_admin', 'content_editor'],
+  },
+  {
+    label: 'Appointment Bookings',
+    i18nKey: 'nav.appointment_bookings',
+    path: '/appointment-bookings',
+    icon: BookOnline,
+    roles: ['admin', 'super_admin'],
   },
   {
     label: 'Users',

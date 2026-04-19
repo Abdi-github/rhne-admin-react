@@ -39,6 +39,7 @@ const EmergencyHotlinesListPage = lazy(() => import('@/features/emergency-hotlin
 const EmergencyHotlineCreatePage = lazy(() => import('@/features/emergency-hotlines/pages/EmergencyHotlineCreatePage'));
 const EmergencyHotlineEditPage = lazy(() => import('@/features/emergency-hotlines/pages/EmergencyHotlineEditPage'));
 const AppointmentsListPage = lazy(() => import('@/features/appointments/pages/AppointmentsListPage'));
+const AppointmentBookingsListPage = lazy(() => import('@/features/appointment-bookings/pages/AppointmentBookingsListPage'));
 const AppointmentCreatePage = lazy(() => import('@/features/appointments/pages/AppointmentCreatePage'));
 const AppointmentEditPage = lazy(() => import('@/features/appointments/pages/AppointmentEditPage'));
 const UsersListPage = lazy(() => import('@/features/users/pages/UsersListPage'));
@@ -437,6 +438,18 @@ export const router = createBrowserRouter([
               <PermissionRoute roles={['admin', 'super_admin', 'content_editor']}>
                 <LazyPage>
                   <AppointmentEditPage />
+                </LazyPage>
+              </PermissionRoute>
+            ),
+          },
+
+          // Appointment Bookings
+          {
+            path: 'appointment-bookings',
+            element: (
+              <PermissionRoute roles={['admin', 'super_admin']}>
+                <LazyPage>
+                  <AppointmentBookingsListPage />
                 </LazyPage>
               </PermissionRoute>
             ),

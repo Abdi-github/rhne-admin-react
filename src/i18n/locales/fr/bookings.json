@@ -1,0 +1,27 @@
+{
+  "title": "Réservations de rendez-vous",
+  "reference": "Référence",
+  "patient": "Patient",
+  "date": "Date souhaitée",
+  "time_slot": "Créneau horaire",
+  "site": "Site",
+  "reason": "Motif",
+  "symptoms": "Symptômes",
+  "notes": "Notes",
+  "dob": "Date de naissance",
+  "submitted": "Soumis le",
+  "confirmed_by": "Confirmé par",
+  "search_placeholder": "Rechercher par nom, référence, email...",
+  "no_bookings": "Aucune réservation trouvée",
+  "confirm_delete": "Êtes-vous sûr de vouloir supprimer cette réservation ? Cette action est irréversible.",
+  "deleted_success": "Réservation supprimée avec succès",
+  "status_updated": "Statut de la réservation mis à jour",
+  "update_status": "Mettre à jour le statut",
+  "statuses": {
+    "pending": "En attente",
+    "confirmed": "Confirmé",
+    "cancelled": "Annulé",
+    "completed": "Terminé",
+    "no_show": "Absent"
+  }
+}
