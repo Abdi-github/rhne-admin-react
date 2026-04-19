@@ -1,0 +1,27 @@
+{
+  "title": "Terminbuchungen",
+  "reference": "Referenz",
+  "patient": "Patient",
+  "date": "Gewünschtes Datum",
+  "time_slot": "Zeitfenster",
+  "site": "Standort",
+  "reason": "Grund",
+  "symptoms": "Symptome",
+  "notes": "Notizen",
+  "dob": "Geburtsdatum",
+  "submitted": "Eingereicht am",
+  "confirmed_by": "Bestätigt von",
+  "search_placeholder": "Suche nach Name, Referenz, E-Mail...",
+  "no_bookings": "Keine Terminbuchungen gefunden",
+  "confirm_delete": "Möchten Sie diese Buchung wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden.",
+  "deleted_success": "Buchung erfolgreich gelöscht",
+  "status_updated": "Buchungsstatus erfolgreich aktualisiert",
+  "update_status": "Status aktualisieren",
+  "statuses": {
+    "pending": "Ausstehend",
+    "confirmed": "Bestätigt",
+    "cancelled": "Storniert",
+    "completed": "Abgeschlossen",
+    "no_show": "Nicht erschienen"
+  }
+}

@@ -10,6 +10,7 @@ export const API_TAGS = [
   'PatientInfo',
   'EmergencyHotlines',
   'Appointments',
+  'AppointmentBookings',
   'Users',
   'Roles',
   'Permissions',

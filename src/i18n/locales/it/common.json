@@ -80,8 +80,10 @@
     "rbac": "Ruoli e permessi",
     "settings": "Impostazioni",
     "emergency_hotlines": "Hotline di emergenza",
-    "appointments": "Appuntamenti"
+    "appointments": "Appuntamenti",
+    "appointment_bookings": "Prenotazioni"
   },
+  "all": "Tutti",
   "roles": {
     "super_admin": "Super Admin",
     "admin": "Amministratore",

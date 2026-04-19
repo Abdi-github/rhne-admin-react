@@ -1,0 +1,27 @@
+{
+  "title": "Prenotazioni appuntamenti",
+  "reference": "Riferimento",
+  "patient": "Paziente",
+  "date": "Data preferita",
+  "time_slot": "Fascia oraria",
+  "site": "Sede",
+  "reason": "Motivo",
+  "symptoms": "Sintomi",
+  "notes": "Note",
+  "dob": "Data di nascita",
+  "submitted": "Inviato il",
+  "confirmed_by": "Confermato da",
+  "search_placeholder": "Cerca per nome, riferimento, email...",
+  "no_bookings": "Nessuna prenotazione trovata",
+  "confirm_delete": "Sei sicuro di voler eliminare questa prenotazione? Questa azione non può essere annullata.",
+  "deleted_success": "Prenotazione eliminata con successo",
+  "status_updated": "Stato della prenotazione aggiornato con successo",
+  "update_status": "Aggiorna stato",
+  "statuses": {
+    "pending": "In attesa",
+    "confirmed": "Confermato",
+    "cancelled": "Annullato",
+    "completed": "Completato",
+    "no_show": "Non presentato"
+  }
+}
